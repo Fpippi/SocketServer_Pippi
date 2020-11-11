@@ -30,6 +30,7 @@ namespace SocketServer
             //listenersocket lo collego all'endpoin che ho appena configurato
             listenerSocket.Bind(ipep);
 
+
             //mettere in ascolto il server.
             //parametro: il numero massimo di connesioni da mettere in coda 
             listenerSocket.Listen(5);
